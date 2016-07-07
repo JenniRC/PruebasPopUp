@@ -23,7 +23,7 @@ function getToken(){
 }else{
   xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
 }
-  xmlhttp.open("GET","tokenAcces.xml",false);
+  xmlhttp.open("GET","/Portals/0/tokenAcces.xml",false);
   xmlhttp.send();
   xmlDoc=xmlhttp.responseXML;
   var keys =xmlDoc.getElementsByTagName("key");
@@ -122,7 +122,6 @@ while (i<clen) {
 
     if (document.cookie.substring(i,j)==arg)
         return "1";
-        alert("CJJJ");
     i=document.cookie.indexOf(" ",i)+1;
     if (i==0)
         break;
