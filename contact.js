@@ -97,6 +97,7 @@ function getToken(){
     event.preventDefault();
     addUser();
   });
+
   $(" #contact-form a.contact").click( function(event) {
     var ok=GetCookie("cookies_download");
     if (ok==null){
