@@ -1,13 +1,64 @@
-body {background:#fff; color:#333; font: 12px/22px verdana, arial, sans-serif; height:100%; margin:0 auto; width:100%;}
-h1 {color:#3a6d8c; font-size:34px; line-height:40px; margin:0;}
-h3 {color:#3a6d8c; font-size:22px; line-height:26px; font-weight:normal; margin:0 0 8px 0;}
-img {border:0;}
-#logo {margin-bottom:20px; width:300px;}
-#logo h1 {color:#666; letter-spacing:-1px; font-weight:normal;}
-#logo h1 span {color:#444; font-weight:bold;}
-#logo .title {color:#999; font-size:12px;}
-#container {margin:0 auto; padding-top:20px; width:800px;}
-#content {border-bottom:1px dotted #999; border-top:1px dotted #999; padding:20px 0;}
-#footer {clear:left; color:#888; margin:20px 0;}
-#footer a:link, #footer a:visited {color:#888; text-decoration:none;}
-#footer a:hover {color:#333; text-decoration:underline;}
+body { font-size: 50%; }
+label, input {
+  display:block;
+}
+.ui-dialog-titlebar{
+  color:#173059;
+}
+input.text {
+  margin-bottom:10px;
+  width:95%;
+  padding: .4em;
+  color:#d76300;
+}
+fieldset {
+  padding:0;
+  border:0;
+  margin-top:0px;
+  font-size: 10px;
+ }
+h1 {
+  font-size: 13px;
+  margin: .6em 0;
+}
+.ui-dialog .ui-state-error {
+  padding: .3em;
+}
+.validateTips { border: 1px solid transparent; }
+#dialog-form{
+  overflow: initial;
+}
+p.validateTips{
+  color: red;
+}
+.ui-widget-content {
+  color:#173059!important;
+}
+/*Selector cuadradito de arriba*/
+.ui-dialog-titlebar{
+  background-color: #f36f21!important;
+  color:#173059!important;
+  font-size: 12px!important;
+  background-image: none!important;
+}
+.ui-widget-header{
+  background-color: #f36f21!important;
+  color:#FFFFFF!important;
+  font-size: 11px!important;
+  background-image: none!important;
+}
+.ui-dialog .ui-dialog-buttonpane {
+	text-align: center!important;
+	border-width: 0 0 0 0!important;
+	background-image: none;
+	margin-top: .5em;
+	padding: .3em 1em .5em .4em;
+}
+#cc{
+  background-color: red;
+}
+.ui-dialog .ui-dialog-buttonpane button{
+  background-image: none!important;
+  color:#FFFFFF!important;
+  background-color: #f36f21!important;
+}
